@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>EcoFam Website</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+    <title>EcoFam Website | Home</title>
+    <link rel="stylesheet" type="text/css" href="Style/style.css" />
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
@@ -15,29 +15,50 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
   </head>
   <body>
+
+    <!-- HeaderNavbar -->
     <header>
-      <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>EcoFam</span></a>
+      <div class="logo"><i class="ri-home-heart-fill"></i><span>EcoFam</span></div>
       <ul class="navbar">
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="#">Seller</a></li>
         <li><a href="#">Kategori</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Seller</a></li>
+        <li><a href="#">Profile</a></li>
       </ul>
       <div class="search">
         <input type="text" class="searchTerm" placeholder="Anda ingin mencari apa?" />
         <button type="submit" class="searchButton">
           <img src="assets/img/searchicon.png" class="iconsrch" />
         </button>
-        <div class="img-cart">
-          <img src="assets/img/cart.svg" alt="" class="gambar-cart" height="30" width="30" />
-          <a href=""><p class="Cart">Cart</p></a>
-        </div>
-        <div class="img-profile">
-          <img src="assets/img/Profile.svg" alt="" class="gambar-profile" height="30" width="30" />
-          <a href=""><p class="Profile">Profile</p></a>
-        </div>
+       
       </div>
     </header>
     
+    <div class="container">
+      <!-- body -->
+     <div class="wrapper">
+
+      <!-- ListProduct -->
+      <a href="" class="product-card">
+        <div class="card">
+          <img src="https://lzd-img-global.slatic.net/g/p/4429090802801a588cae9016093c44cb.jpg_720x720q80.jpg_.webp" class="product-image">
+          <div class="wrapper-product">
+            <h1 class="product-title">Canon Bla Bla</h1>
+            <h1 class="product-price">Rp.2.000.000</h1>
+          </div>
+        </div>
+      </a>
+      
+     </div>
+      
+      
+    </div>
+
+    <footer>
+      <h1 class="title-footer">EcoFam Website</h1>
+    </footer>
 
     <!--js link--->
     <script type="text/javascript" src="assets/script.js"></script>

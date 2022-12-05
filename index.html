@@ -1,12 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Test</h1>
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>EcoFam Website</title>
+    <link rel="stylesheet" type="text/css" href="assets/style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"><i class="ri-home-heart-fill"></i><span>EcoFam</span></a>
+      <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Seller</a></li>
+        <li><a href="#">Kategori</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" class="searchTerm" placeholder="Anda ingin mencari apa?" />
+        <button type="submit" class="searchButton">
+          <img src="assets/img/searchicon.png" class="iconsrch" />
+        </button>
+        <div class="img-cart">
+          <img src="assets/img/cart.svg" alt="" class="gambar-cart" height="30" width="30" />
+          <a href=""><p class="Cart">Cart</p></a>
+        </div>
+        <div class="img-profile">
+          <img src="assets/img/Profile.svg" alt="" class="gambar-profile" height="30" width="30" />
+          <a href=""><p class="Profile">Profile</p></a>
+        </div>
+      </div>
+    </header>
+    
+
+    <!--js link--->
+    <script type="text/javascript" src="assets/script.js"></script>
+  </body>
 </html>
